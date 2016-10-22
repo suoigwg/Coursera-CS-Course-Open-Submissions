@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+#nav-list, #nav-list a {
+    border: solid black 1px;
+}
+
+
+#nav-list a:hover{
+    background-color: darkgray;
+}
+
+button.navbar-toggle{
+
+    background-color: white;
+
+}
+#chichken, #beef, #sushi{
+    background-color: white;
+    padding:20px;
+}
+
+div > section{
+    padding:20px;
+}
+
+.row{
+    padding:15px;
+}
+
+#chichken > section{
+    background-color: yellow;
+}
+
+#beef > section{
+    background-color: sandybrown;
+}
+
+#sushi > section{
+    background-color: darkgray;
+}
+
+.col-xs-12 > div{
+    font-size:1.8em;
+}
